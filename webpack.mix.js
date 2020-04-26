@@ -1,6 +1,6 @@
 let mix = require('laravel-mix');
 
-mix.js('src/app.js', 'public/js')
-    .sass('src/app.scss', 'public/css')
-    .setPublicPath('public')
+mix.js('src/app.js', './js')
+    .sass('src/app.scss', './css')
+    .setPublicPath('.')
     .disableNotifications();
